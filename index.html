@@ -20,7 +20,7 @@
      *{ outline: dotted 1px red; }
      
      img { width: 100% }
-      
+   form * {display: block}
       </style>
     
     </head>
@@ -54,8 +54,8 @@
       </section>
     <----Formulario---->
       <---- los archvos se envian sempre por post----->
-      <form action="enviar.php"  method="post">
-        
+      <form action="enviar.php"  method="post" class="form-horizontal">
+        <div class="form-group">
         <label>Nombre:</label>
       <input type="text" name="nombre">
         <label>E-MAIL:</label>
@@ -99,13 +99,13 @@
           
              
           
-    
+        
                                        
           </label>
           
           <input type="submit" value="enviar!">
         
-        
+          </div>
       </form>
     
     
