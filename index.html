@@ -52,6 +52,66 @@
               lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem 
           </Articule>                                                               
       </section>
+    <----Formulario---->
+      <---- los archvos se envian sempre por post----->
+      <form action="enviar.php"  method="post">
+        
+        <label>Nombre:</label>
+      <input type="text" name="nombre">
+        <label>E-MAIL:</label>
+        <input type="email" name="correo">
+        <label>Password:</label>
+        <input type="password" name="clave">
+        
+         <label>
+           Estas casado?
+           
+           <input type="radio" name="casadx" value="SI"> SI
+           <input type="radio" name="casadx" value="NO"> NO
+        
+             </label>
+        
+      <label>
+        Como nos conociste?
+        <select name="referido">
+          <option value="0">Elija su opcion...</option>
+           <option>Facebook</option>
+           <option>Twitter</option>
+           <option>Instagram</option>
+           <option>Linkedin</option>
+          
+          <label>Observaciones:</label>
+           <textarea name="observaciones" rows="5" cols="10">  <-----aqui se puede escribir o dejar en blanco---->  </textarea>
+          
+          
+        </select>
+        
+             </label>
+        
+        
+        
+        
+        
+        <label>
+          <input type="checkbox" name="tyc" value="OK">
+          
+          He leido y acepto los Terminos y Condiciones....
+          
+             
+          
+    
+                                       
+          </label>
+          
+          <input type="submit" value="enviar!">
+        
+        
+      </form>
+    
+    
+    
+    
+    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
